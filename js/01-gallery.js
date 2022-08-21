@@ -17,7 +17,7 @@ const imageGallery = galleryItems
 </div>`;
   })
   .join(" ");
-console.log(imageGallery);
+
 
 markupGallery.insertAdjacentHTML("beforeend", `${imageGallery}`);
 
@@ -49,3 +49,4 @@ const escClick = (evt) => {
 };
 
 console.log(galleryItems);
+
