@@ -1,4 +1,4 @@
-import { galleryItems } from './gallery-items.js';
+import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
 const markupGallery = document.querySelector(".gallery");
@@ -17,7 +17,6 @@ const imageGallery = galleryItems
 </div>`;
   })
   .join(" ");
-
 
 markupGallery.insertAdjacentHTML("beforeend", `${imageGallery}`);
 
@@ -49,4 +48,3 @@ const escClick = (evt) => {
 };
 
 console.log(galleryItems);
-
